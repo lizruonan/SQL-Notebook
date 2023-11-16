@@ -47,3 +47,9 @@ ORDER BY column1
 ```
 
 Example: [Leetcode 1148. Article Views I](https://leetcode.cn/problems/article-views-i/description/?envType=study-plan-v2&envId=sql-free-50)
+
+---
+
+## References:
+- https://www.mysqltutorial.org/mysql-order-by/
+- https://www.mysqltutorial.org/mysql-where/
