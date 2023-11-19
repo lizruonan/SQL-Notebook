@@ -41,7 +41,7 @@ ORDER BY column1 ASC
 ORDER BY column2 DESC
 ```
 
-If you don't specify any optoin, `ORDER BY ` will sort the value ascendingly:
+If you don't specify any option, `ORDER BY ` will sort the value ascendingly:
 ``` 
 ORDER BY column1
 ```
