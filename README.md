@@ -1,5 +1,5 @@
 # SQL-Notebook
- SQL Notebook
+ Notes from Leetcode SQL examples.
 
  Table of Contents
 - [Query](Query.md)
