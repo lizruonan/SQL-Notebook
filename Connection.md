@@ -22,7 +22,7 @@ Ex:
 
 ### Using `LEFT JOIN` clause to find unmatched rows:
 
-If there is no matching from the left table `t1` to the right table `t2`, columns from the right row will contain `NULL`. `LEFT JOIN` will still return all rows from the left regardless if there is a matching or not.
+If there is no matching from the left table `t1` to the right table `t2`, columns from the right row will contain `NULL`. `LEFT JOIN` will still return all rows from the left regardless if there is a matching or not. In this case, we can find non mathcing rows (`is NULL`).
 
 Ex:
 - [1581. Customer Who Visited but Did Not Make Any Transactions](https://leetcode.cn/problems/customer-who-visited-but-did-not-make-any-transactions/description/?envType=study-plan-v2&envId=sql-free-50)
