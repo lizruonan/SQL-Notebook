@@ -1,6 +1,6 @@
 # Connection
 
-## MySQL LEFT JOIN
+## MySQL `LEFT JOIN`
 
 ### Using `LEFT JOIN` clause to join two tables:
 
@@ -26,6 +26,11 @@ If there is no matching from the left table `t1` to the right table `t2`, column
 
 Ex:
 - [1581. Customer Who Visited but Did Not Make Any Transactions](https://leetcode.cn/problems/customer-who-visited-but-did-not-make-any-transactions/description/?envType=study-plan-v2&envId=sql-free-50)
+
+
+## MySQL `CROSS JOIN`
+
+
 
 ---
 
