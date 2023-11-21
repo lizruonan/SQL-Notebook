@@ -8,3 +8,4 @@
 
 - [Connection](Connection.md)
     - LEFT JOIN
+    - CROSS JOIN
