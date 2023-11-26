@@ -29,9 +29,16 @@ Ex:
 
 
 ## MySQL `CROSS JOIN`
+ the `CROSS JOIN` clause returns a Cartesian product of rows from the joined tables.
+```MySQL
+SELECT select_list 
+FROM t1
+CROSS JOIN t2;
+```
+ 
 
-
-
+Ex: 
+- [197. Rising Temperature](https://leetcode.cn/problems/rising-temperature/description/?envType=study-plan-v2&envId=sql-free-50)
 ---
 
 References: 
