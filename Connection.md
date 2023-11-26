@@ -35,11 +35,22 @@ SELECT select_list
 FROM t1
 CROSS JOIN t2;
 ```
- 
+### MySQL `TIMESTAMPDIFF()` Function
+
+The `TIMESTAMPDIFF()` function returns the difference between two datetime expressions in years, months, days, hours, minutes, or seconds.
+```MySQL
+TIMESTAMPDIFF(unit, begin, end);
+```
+The TIMESTAMPDIFF function returns the result of `begin` - `end`, where `begin` and `end` are `DATE` or `DATETIME` expressions.
+
+The unit argument determines the unit of the result of (`end - begin`) represented as an integer. The following are valid units:
+`MICROSECOND`, `SECOND`, `MINUTE`, `HOUR`, `DAY`, `WEEK`, `MONTH`, `QUARTER`, `YEAR`
 
 Ex: 
 - [197. Rising Temperature](https://leetcode.cn/problems/rising-temperature/description/?envType=study-plan-v2&envId=sql-free-50)
 ---
 
 References: 
-- [MySQL LEFT JOIN](https://www.mysqltutorial.org/mysql-left-join.aspx)
+- [MySQL LEFT JOIN tutoral](https://www.mysqltutorial.org/mysql-left-join.aspx)
+- [MySQL CROSS JOIN tutorial](https://www.mysqltutorial.org/mysql-cross-join/)
+- [MySQL TIMESTAMPDIFF() Function tutorial](https://www.mysqltutorial.org/mysql-timestampdiff/)
