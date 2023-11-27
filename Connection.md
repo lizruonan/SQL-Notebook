@@ -48,7 +48,14 @@ The unit argument determines the unit of the result of (`end - begin`) represent
 
 Ex: 
 - [197. Rising Temperature](https://leetcode.cn/problems/rising-temperature/description/?envType=study-plan-v2&envId=sql-free-50)
+
+## MySQL `(INNER) JOIN`
+The `INNER JOIN` clause compares each row in `t1` table with every rown in the `t2` table in a one-to-one fashion, based on the joining condition.
+
+
 ---
+
+
 
 References: 
 - [MySQL LEFT JOIN tutoral](https://www.mysqltutorial.org/mysql-left-join.aspx)
