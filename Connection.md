@@ -58,6 +58,6 @@ The `INNER JOIN` clause compares each row in `t1` table with every rown in the `
 
 
 References: 
-- [MySQL LEFT JOIN tutoral](https://www.mysqltutorial.org/mysql-left-join.aspx)
+- [MySQL LEFT JOIN tutorial](https://www.mysqltutorial.org/mysql-left-join.aspx)
 - [MySQL CROSS JOIN tutorial](https://www.mysqltutorial.org/mysql-cross-join/)
 - [MySQL TIMESTAMPDIFF() Function tutorial](https://www.mysqltutorial.org/mysql-timestampdiff/)
