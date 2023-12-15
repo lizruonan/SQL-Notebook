@@ -7,5 +7,6 @@
     - ORDER BY
 
 - [Connection](Connection.md)
+    - (INNER) JOIN
     - LEFT JOIN
     - CROSS JOIN
