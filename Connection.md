@@ -20,6 +20,9 @@ ORDER BY new_column;
 ```
 `JOIN` is just combining information side by side; it doesn't provide useful information, until we use `GROUP BY` and any aggregation functions to do analysis.
 
+Ex:
+- [570. Managers with at Least 5 Direct Reports](https://leetcode.cn/problems/managers-with-at-least-5-direct-reports/description/?envType=study-plan-v2&envId=sql-free-50)
+
 ## MySQL `LEFT JOIN`
 
 ### Using `LEFT JOIN` clause to join two tables:
