@@ -1,4 +1,24 @@
 # Connection
+## MySQL `(INNER) JOIN`
+The `INNER JOIN` clause compares each row in `t1` table with every rown in the `t2` table in a one-to-one fashion, based on the joining condition.
+
+```MySQL
+SELECT * FROM t1
+JOIN t2 ON join_condition;
+```
+
+The order of t1 and t2 does not matter. 
+
+### Combining with `GROUP BY`
+It is common to use `GROUP BY` with `JOIN`: 
+
+```MySQL
+SELECT column1, column2, FUNCTION(column3) as new_column FROM t1
+JOIN t2 ON join_condition
+GROUP BY column1, column2
+ORDER BY new_column;
+```
+`JOIN` is just combining information side by side; it doesn't provide useful information, until we use `GROUP BY` and any aggregation functions to do analysis.
 
 ## MySQL `LEFT JOIN`
 
@@ -49,8 +69,6 @@ The unit argument determines the unit of the result of (`end - begin`) represent
 Ex: 
 - [197. Rising Temperature](https://leetcode.cn/problems/rising-temperature/description/?envType=study-plan-v2&envId=sql-free-50)
 
-## MySQL `(INNER) JOIN`
-The `INNER JOIN` clause compares each row in `t1` table with every rown in the `t2` table in a one-to-one fashion, based on the joining condition.
 
 
 ---
