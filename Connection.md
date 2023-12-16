@@ -13,10 +13,18 @@ The order of t1 and t2 does not matter.
 It is common to use `GROUP BY` with `JOIN`: 
 
 ```MySQL
-SELECT column1, column2, FUNCTION(column3) as new_column FROM t1
-JOIN t2 ON join_condition
-GROUP BY column1, column2
-ORDER BY new_column;
+SELECT 
+    column1, column2, FUNCTION(column3) AS new_column 
+FROM 
+    t1
+JOIN 
+    t2 
+ON 
+    join_condition
+GROUP BY 
+    column1, column2
+ORDER BY 
+    new_column;
 ```
 `JOIN` is just combining information side by side; it doesn't provide useful information, until we use `GROUP BY` and any aggregation functions to do analysis.
 
@@ -31,10 +39,12 @@ Ex:
 
 ```MYSQL
 SELECT 
-    select_list
+    column1, column2, column3, ...
 FROM
     t1
-LEFT JOIN t2 ON 
+LEFT JOIN 
+    t2 
+ON 
     join_condition;
 ```
 
@@ -50,6 +60,13 @@ If there is no matching from the left table `t1` to the right table `t2`, column
 Ex:
 - [1581. Customer Who Visited but Did Not Make Any Transactions](https://leetcode.cn/problems/customer-who-visited-but-did-not-make-any-transactions/description/?envType=study-plan-v2&envId=sql-free-50)
 
+
+### Using Aggregation Functions with `LEFT JOIN`
+
+*place holder*
+
+Ex:
+- [1934. Confirmation Rate](https://leetcode.cn/problems/confirmation-rate/?envType=study-plan-v2&envId=sql-free-50)
 
 ## MySQL `CROSS JOIN`
  the `CROSS JOIN` clause returns a Cartesian product of rows from the joined tables.
