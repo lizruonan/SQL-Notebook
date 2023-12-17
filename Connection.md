@@ -89,7 +89,7 @@ The unit argument determines the unit of the result of (`end - begin`) represent
 Ex: 
 - [197. Rising Temperature](https://leetcode.cn/problems/rising-temperature/description/?envType=study-plan-v2&envId=sql-free-50)
 
-
+## MySQL `RIGHT JOIN`
 
 ---
 
